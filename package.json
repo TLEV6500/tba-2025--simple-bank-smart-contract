@@ -1,5 +1,9 @@
 {
+  "scripts": {
+    "deploy": "npx hardhat deploy --contract-name"
+  },
   "dependencies": {
+    "dotenv": "^16.5.0",
     "hardhat": "^2.24.0"
   },
   "devDependencies": {
